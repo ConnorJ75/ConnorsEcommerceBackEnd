@@ -34,11 +34,6 @@ Product.init(
       validate: {
         isDecimal: true
       }
-    },
-    category_ID: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {model: 'category', key: 'id'}
     }
   },
   {
